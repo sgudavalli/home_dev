@@ -1,4 +1,4 @@
-package org.rbr.amadeus.run;
+package org.amadeus.rbr.run;
 
 import java.util.*;
 import java.util.concurrent.BlockingQueue;
@@ -21,23 +21,22 @@ import kafka.producer.ProducerConfig;
  * Hello world!
  *
  */
-public class twitterStream {
-	private static final String topic = "twitterStreams";
-
+public class TrumpTweets {
+	
 	private static final String consumerKey = "QO7GYjM35DBIj89fgsdluN6CK";
 	private static final String consumerSecret = "joZdcSNGsgNI87v6WC4npSTwrxbNYQ1fxMsFbiF869ZoU6Ga6v";
 	private static final String token = "26683719-XU6lyae2JnFwGP1xgw5jrTISIVNRcfaSB784tUvOv";
 	private static final String secret = "sW8osKeOTsxWKELFfYpE1c05cbIVP1zVvkhnx6qnZos9v";
 
 	public static void main(String[] args) {
-		twitterStream.run();
+		TrumpTweets.run(args[0], args[1]);
 	}
 
-	public static void run() {
+	public static void run(String topicName, String hashtag) {
 
 		/* Kafka specific producer config & codebase */
 		Properties props = new Properties();
-		props.put("metadata.broker.list", "localhost:9092");
+		props.put("metadata.broker.list", "192.168.0.5:9092,192.168.0.5:9093,192.168.0.5:9094");
 		props.put("serializer.class", "kafka.serializer.StringEncoder");
 
 		ProducerConfig kafkaproducer = new ProducerConfig(props);
@@ -49,7 +48,7 @@ public class twitterStream {
 
 		/* list of tags to capture */
 		StatusesFilterEndpoint endpoint = new StatusesFilterEndpoint();
-		endpoint.trackTerms(Lists.newArrayList("Trump" ));
+		endpoint.trackTerms(Lists.newArrayList(hashtag.split(",")));
 
 		/* twitter Authentication */
 		Authentication auth = new OAuth1(consumerKey, consumerSecret, token,
@@ -62,10 +61,10 @@ public class twitterStream {
 		client.connect();
 
 		/* reading 1000 messages */
-		for (int msgRead = 0; msgRead < 10; msgRead++) {
+		for (int msgRead = 0; msgRead < 100; msgRead++) {
 			KeyedMessage<String, String> message = null;
 			try {
-				message = new KeyedMessage<String, String>(topic, queue.take());
+				message = new KeyedMessage<String, String>(topicName, queue.take());
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
