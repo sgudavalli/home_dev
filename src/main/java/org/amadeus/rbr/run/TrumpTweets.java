@@ -36,7 +36,7 @@ public class TrumpTweets {
 
 		/* Kafka specific producer config & codebase */
 		Properties props = new Properties();
-		props.put("metadata.broker.list", "192.168.0.5:9092,192.168.0.5:9093,192.168.0.5:9094");
+		props.put("metadata.broker.list", "192.168.0.4:9092,192.168.0.4:9093,192.168.0.4:9094");
 		props.put("serializer.class", "kafka.serializer.StringEncoder");
 
 		ProducerConfig kafkaproducer = new ProducerConfig(props);
