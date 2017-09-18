@@ -1,0 +1,104 @@
+{
+    "version": "1.1",
+    "header": {
+        "generationTime": "${lastModified}",
+        "source": {
+            "application": "HCR_RTM",
+            "conversationId": "000100NMVUYKMT"
+        },
+        "security": {
+            "officeId": "NCE2X4100",
+            "sign": "0173MG",
+            "userId": "HTLROBOTIC",
+            "organization": "HTL-2X"
+        }
+    },
+    "data": [{
+        "type": "RatePlan",
+        "version": "1",
+        "scope": {
+            "chainCode": "${chainCode}",
+            "brandCode": "${brandCode}",
+            "propertyCode": "${hotelCode}",
+            "regionCode": "${regionCode}"
+        },
+        "id": "${chainCode}|${hotelCode}|${ratePlanCode}",
+        "lastModified": "${lastModified}",
+        "action": "Create",
+        "objectAfter": {
+            "countryCode": "${countryCode}",
+            "ratePlanCode": "${ratePlanCode}",
+            "parentRatePlanCode": null,
+            "stayPeriod": null,
+            "lastUpdate": "2017-06-14T14:11:20.882Z",
+            "content": {
+                "name": "${name}",
+                "isCommissionable": ${isCommissionable},
+                "isCourtesyHoldAllowed": ${isCourtesyHoldAllowed},
+                "isBestFlexibleRate": false,
+                "blackoutParticipationStatusType": "${blackoutParticipationStatusType}",
+                "categories": [],
+                "checkInCheckOut": {
+                    "checkInTime": null,
+                    "checkOutTime": null
+                },
+                "firstCheckingDate": null,
+                "lastCheckoutDate": null,
+                "isToBeDeletedAfterEndDate": ${isToBeDeletedAfterEndDate},
+                "isConfidential": ${isConfidential},
+                "isDisplayOnGDS": ${isDisplayOnGDS},
+                "currency": null,
+                "description": null,
+                "bookingMessage": null,
+                "ratePlanSecurity": {
+                    "ratePlanProtectionLevel": "N",
+                    "isSellStrategyAllowed": ${isSellStrategyAllowed},
+                    "areRatePropertiesAllowed": ${areRatePropertiesAllowed},
+                    "isCustomizationAllowed": ${isCustomizationAllowed},
+                    "isDeleteAtHotelAllowed": ${isDeleteAtHotelAllowed},
+                    "participationProtectionLevel": null
+                },
+                "ratePlanPolicies": {
+                    "isBusinessChoiceGuarantee": false,
+                    "isCallCenterGuarantee": false,
+                    "isFollowingHousePolicy": true,
+                    "isAdvancePurchaseRequired": false
+                },
+                "qualifiedRate": {
+                    "isLoyaltyNumberRequired": ${isLoyaltyNumberRequired},
+                    "isID_RequiredAtCheckIn": ${isID_RequiredAtCheckIn},
+                    "isCouponRequired": ${isCouponRequired}
+                },
+                "groupRate": {
+                    "isGroup": ${isGroup},
+                    "groupHoldDays": null,
+                    "minNumberOfRooms": null,
+                    "maxNumberOfRooms": null
+                },
+                "serviceList": null,
+                "priceGridData": {
+                    "isPriceGridOneToOne": ${isPriceGridOneToOne},
+                    "hasExtraPersonCharge": ${hasExtraPersonCharge},
+                    "isPriceGridWithAllocationAllowed": false,
+                    "priceGridType": null,
+                    "priceGridCode": null
+                },
+                "displayAttributes": {
+                    "marketingDisplay": ${marketingDisplay}
+                },
+                "isRatePlanAtLeastAtMostAllowed": ${isRatePlanAtLeastAtMostAllowed},
+                "loyaltyAttributes": {
+                    "loyaltyPointsApply": ${loyaltyPointsApply},
+                    "freeNight": ${freeNight},
+                    "loyaltyAwards": ${loyaltyAwards}
+                },
+                "package": {
+                    "isPackage": ${isPackage},
+                    "additionalDetails": [],
+                    "overView": [],
+                    "termsAndConditions": []
+                }
+            }
+        }
+    }]
+}

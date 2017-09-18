@@ -1,0 +1,3820 @@
+{
+    "version": "1.1",
+    "header": {
+        "generationTime": "${lastModified}",
+        "source": {
+            "application": "AHP",
+            "conversationId": "000100NIB1QTQY",
+            "isMigration": "true"
+        },
+        "security": {
+            "officeId": "NCE2X4100",
+            "sign": "0173MG",
+            "userId": "HTLROBOTIC",
+            "organization": "HTL-2X"
+        }
+    },
+    "data": [
+        {
+            "type": "AmountRule",
+            "version": "1",
+            "scope": {
+                "chainCode": "${chainCode}",
+                "propertyCode": "${hotelCode}",
+                "brandCode": "ES",
+                "regionCode": ""
+            },
+            "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}CSTN",
+            "action": "Create",
+            "lastModified": "${lastModified}",
+            "objectBefore": null,
+            "objectAfter": {
+                "chainCode": "${chainCode}",
+                "brandCode": "ES",
+                "propertyCode": "${hotelCode}",
+                "id": 12640867,
+                "ratePlanCode": "C1",
+                "priceGridCode": "${priceGridCode}",
+                "beginDate": "${beginDate}",
+                "endDate": "${endDate}",
+                "dow": "${dow}",
+                "productCode": "${productCodePrefix}CSTN",
+                "productType": "ROOM",
+                "lastUpdate": "10May2017T06:40:10",
+                "lastRMSUpdate": null,
+                "amounts": [
+                    {
+                        "value": 139.0,
+                        "code": "7IXNJ",
+                        "formula": 3,
+                        "name": null,
+                        "computedAmount": null,
+                        "computedAmounts": []
+                }
+            ]
+        }
+    }, {
+        "type": "AmountRule",
+        "version": "1",
+        "scope": {
+            "chainCode": "${chainCode}",
+            "propertyCode": "${hotelCode}",
+            "brandCode": "ES",
+            "regionCode": ""
+        },
+        "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}KNGN",
+        "action": "Create",
+        "lastModified": "${lastModified}",
+        "objectBefore": null,
+        "objectAfter": {
+            "chainCode": "${chainCode}",
+            "brandCode": "ES",
+            "propertyCode": "${hotelCode}",
+            "id": 12640868,
+            "ratePlanCode": "C1",
+            "priceGridCode": "${priceGridCode}",
+            "beginDate": "${beginDate}",
+            "endDate": "${endDate}",
+            "dow": "${dow}",
+            "productCode": "${productCodePrefix}KNGN",
+            "productType": "ROOM",
+            "lastUpdate": "10May2017T06:40:10",
+            "lastRMSUpdate": null,
+            "amounts": [
+                {
+                    "value": 139.0,
+                    "code": "7IXNK",
+                    "formula": 3,
+                    "name": null,
+                    "computedAmount": null,
+                    "computedAmounts": []
+            }
+        ]
+    }
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}KWBN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640869,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}KWBN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNL",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}KWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640870,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}KWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNM",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}KWHN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640871,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}KWHN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNN",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}TQNN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640872,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}TQNN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNO",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}TWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640873,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}TWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNP",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}TWGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640874,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}TWGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNQ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}XKLN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640875,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}XKLN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNR",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}XWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640876,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}XWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNS",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}XWKN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640877,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}XWKN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNT",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}1CSTN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640867,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}1CSTN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNJ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}1KNGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640868,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}1KNGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNK",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}1KWBN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640869,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}1KWBN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNL",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}1KWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640870,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}1KWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNM",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}1KWHN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640871,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}1KWHN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNN",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}1TQNN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640872,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}1TQNN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNO",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}1TWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640873,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}1TWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNP",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}1TWGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640874,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}1TWGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNQ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}1XKLN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640875,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}1XKLN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNR",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}1XWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640876,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}1XWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNS",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}1XWKN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640877,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}1XWKN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNT",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}2CSTN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640867,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}2CSTN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNJ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}2KNGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640868,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}2KNGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNK",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}2KWBN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640869,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}2KWBN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNL",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}2KWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640870,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}2KWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNM",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}2KWHN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640871,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}2KWHN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNN",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}2TQNN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640872,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}2TQNN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNO",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}2TWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640873,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}2TWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNP",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}2TWGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640874,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}2TWGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNQ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}2XKLN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640875,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}2XKLN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNR",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}2XWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640876,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}2XWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNS",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}2XWKN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640877,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}2XWKN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNT",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}3CSTN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640867,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}3CSTN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNJ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}3KNGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640868,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}3KNGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNK",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}3KWBN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640869,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}3KWBN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNL",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}3KWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640870,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}3KWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNM",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}3KWHN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640871,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}3KWHN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNN",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}3TQNN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640872,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}3TQNN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNO",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}3TWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640873,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}3TWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNP",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}3TWGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640874,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}3TWGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNQ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}3XKLN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640875,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}3XKLN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNR",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}3XWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640876,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}3XWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNS",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}3XWKN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640877,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}3XWKN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNT",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}4CSTN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640867,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}4CSTN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNJ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}4KNGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640868,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}4KNGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNK",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}4KWBN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640869,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}4KWBN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNL",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}4KWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640870,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}4KWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNM",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}4KWHN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640871,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}4KWHN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNN",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}4TQNN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640872,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}4TQNN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNO",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}4TWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640873,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}4TWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNP",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}4TWGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640874,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}4TWGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNQ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}4XKLN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640875,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}4XKLN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNR",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}4XWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640876,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}4XWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNS",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}4XWKN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640877,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}4XWKN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNT",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}5CSTN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640867,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}5CSTN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNJ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}5KNGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640868,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}5KNGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNK",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}5KWBN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640869,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}5KWBN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNL",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}5KWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640870,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}5KWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNM",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}5KWHN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640871,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}5KWHN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNN",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}5TQNN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640872,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}5TQNN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNO",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}5TWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640873,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}5TWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNP",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}5TWGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640874,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}5TWGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNQ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}5XKLN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640875,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}5XKLN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNR",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}5XWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640876,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}5XWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNS",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}5XWKN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640877,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}5XWKN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNT",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}6CSTN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640867,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}6CSTN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNJ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}6KNGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640868,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}6KNGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNK",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}6KWBN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640869,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}6KWBN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNL",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}6KWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640870,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}6KWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNM",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}6KWHN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640871,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}6KWHN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNN",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}6TQNN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640872,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}6TQNN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNO",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}6TWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640873,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}6TWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNP",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}6TWGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640874,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}6TWGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNQ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}6XKLN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640875,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}6XKLN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNR",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}6XWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640876,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}6XWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNS",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}6XWKN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640877,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}6XWKN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNT",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}7CSTN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640867,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}7CSTN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNJ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}7KNGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640868,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}7KNGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNK",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}7KWBN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640869,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}7KWBN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNL",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}7KWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640870,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}7KWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNM",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}7KWHN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640871,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}7KWHN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNN",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}7TQNN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640872,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}7TQNN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNO",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}7TWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640873,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}7TWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNP",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}7TWGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640874,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}7TWGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNQ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}7XKLN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640875,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}7XKLN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNR",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}7XWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640876,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}7XWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNS",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}7XWKN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640877,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}7XWKN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNT",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}8CSTN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640867,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}8CSTN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNJ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}8KNGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640868,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}8KNGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNK",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}8KWBN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640869,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}8KWBN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNL",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}8KWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640870,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}8KWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNM",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}8KWHN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640871,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}8KWHN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNN",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}8TQNN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640872,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}8TQNN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNO",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}8TWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640873,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}8TWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNP",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}8TWGN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640874,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}8TWGN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 139.0,
+                "code": "7IXNQ",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}8XKLN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640875,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}8XKLN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNR",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}8XWEN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640876,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}8XWEN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNS",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}8XWKN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640877,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}8XWKN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNT",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}, {
+    "type": "AmountRule",
+    "version": "1",
+    "scope": {
+        "chainCode": "${chainCode}",
+        "propertyCode": "${hotelCode}",
+        "brandCode": "ES",
+        "regionCode": ""
+    },
+    "id": "${chainCode}|${hotelCode}|||${beginDate}|${endDate}|${dow}|ROOM|${productCodePrefix}9XWKN",
+    "action": "Create",
+    "lastModified": "${lastModified}",
+    "objectBefore": null,
+    "objectAfter": {
+        "chainCode": "${chainCode}",
+        "brandCode": "ES",
+        "propertyCode": "${hotelCode}",
+        "id": 12640877,
+        "ratePlanCode": "C1",
+        "priceGridCode": "${priceGridCode}",
+        "beginDate": "${beginDate}",
+        "endDate": "${endDate}",
+        "dow": "${dow}",
+        "productCode": "${productCodePrefix}9XWKN",
+        "productType": "ROOM",
+        "lastUpdate": "10May2017T06:40:10",
+        "lastRMSUpdate": null,
+        "amounts": [
+            {
+                "value": 149.0,
+                "code": "7IXNT",
+                "formula": 3,
+                "name": null,
+                "computedAmount": null,
+                "computedAmounts": []
+        }
+    ]
+}
+}
+]
+}

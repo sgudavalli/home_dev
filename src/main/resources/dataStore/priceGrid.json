@@ -1,0 +1,51 @@
+{
+    "version": "1.1",
+    "header": {
+        "generationTime": "${lastModified}",
+        "source": {
+            "application": "HCR_RTM",
+            "conversationId": "000100N9I6IVF5"
+        },
+        "security": {
+            "officeId": "NCE2X4100",
+            "sign": "0173MG",
+            "userId": "HTLROBOTIC",
+            "organization": "HTL-2X"
+        }
+    },
+    "data": [{
+        "type": "PriceGrid",
+        "version": "1",
+        "scope": {
+            "chainCode": "${chainCode}",
+            "propertyCode": "${hotelCode}"
+        },
+        "id": "${chainCode}|${hotelCode}|${priceGridCode}",
+        "lastModified": "${lastModified}",
+        "action": "Create",
+        "objectAfter": {
+            "priceGridCode": "${priceGridCode}",
+            "name": "FLAT RATE",
+            "type": "FlatRate",
+            "referencePriceGridCode": null,
+            "taxInclusion": "House",
+            "priceEndsWith": null,
+            "isApplicableToAllRoomTypes": false,
+            "isRMS_AllocationAllowed": false,
+            "isNonRMS_AllocationAllowed": true,
+            "isStayRestrictionAllowed": true,
+            "priceGridProtectionLevel": null,
+            "isFollowHouseDefaultCurrency": ${isFollowHouseDefaultCurrency},
+            "currency": "${currency}",
+            "extraPersonCharge": null,
+            "isDefaultPriceGrid": false,
+            "isDeleteAtHotelAllowed": true,
+            "yieldManagementType": null,
+            "yieldManagementFlatAmount": null,
+            "yieldManagementPercent": null,
+            "minimumLengthOfStay": null,
+            "maximumLengthOfStay": null,
+            "lastUpdate": "2017-06-14T14:10:20.854Z"
+        }
+    }]
+}
