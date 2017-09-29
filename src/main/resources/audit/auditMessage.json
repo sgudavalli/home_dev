@@ -1,0 +1,61 @@
+{
+	"version": "1.1",
+	"timestamp": "${lastModified}",
+	"header": {
+		"generationTime": "${lastModified}",
+		"source": {
+			"application": "AHP_RTM",
+			"conversationId": "${conversationId}"
+		},
+		"security": {
+			"officeId": "NCE2X4100",
+			"sign": "0029HT",
+			"userId": "${userId}",
+			"organization": "${organization}"
+		}
+	},
+	"data": [
+		{
+			"type": "Audit",
+			"version": "1.0",
+			"scope": {
+				"chainCode": "${chainCode}",
+				"propertyCode": "${hotelCode}",
+				"brandCode": "${brandCode}",
+				"regionCode": "${regionCode}"
+			},
+			"id": "${conversationId}|${eventId}",
+			"action": "Create",
+			"lastModified": "${lastModified}",
+			"objectBefore": null,
+			"objectAfter": {
+				"chainCode": "SR3",
+				"returnMarketingText": "true",
+				"allowForceOverride": "true",
+				"returnRateRulesAtSingle": "true",
+				"allowWaitlist": "true",
+				"allowRewardNightBookings": "true",
+				"returnExtraPersonCharge": "true",
+				"returnDenial": "true",
+				"returnCostBreakdown": "true",
+				"useNegoRates": "false",
+				"allowOverrideOccupancy": "false",
+				"allowGuaranteeToHotel": "true",
+				"bypassDepositCheck": "false",
+				"needDeposit_allCountries": "true",
+				"paidDeposit_noCountry": "true"
+			},
+			"properties": {
+				"action": "${action}",
+				"codes": [
+					"${code1}", "${code2}", "${code3}"
+				],
+				"category": "${category}",
+				"subCategory": "${subCategory}",
+				"dates": [
+					"${date1}", "${date2}"
+				]
+			}
+		}
+	]
+}
